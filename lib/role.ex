@@ -1,4 +1,4 @@
-alias Converge.{User, Util, User}
+alias Converge.{User, Util}
 
 defmodule RolePlay do
 	import Util, only: [path_expand_content: 1]
