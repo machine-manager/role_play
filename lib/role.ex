@@ -33,6 +33,9 @@ defmodule RolePlay do
 					]
 				}
 			],
+			security_limits: [
+				["play", "-", "nice", -11]
+			],
 		}
 	end
 end
